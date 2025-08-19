@@ -26,7 +26,8 @@ header img.logo {
 }
 
 main {
-  margin-top: 140px; /* espacio para header fijo */
+  margin-top: 160px; /* espacio para header fijo */
+  margin-bottom: 120px; /* espacio para footer fijo */
   padding: 10px;
 }
 
@@ -77,9 +78,16 @@ a {
   font-weight: bold;
 }
 
+/* Footer fijo */
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #121212; /* mismo fondo que header */
   text-align: center;
-  margin-top: 20px;
+  padding: 10px 0;
+  z-index: 1000;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 footer p {
@@ -115,6 +123,10 @@ footer p {
   color: #1877f2;
 }
 
+.social-links .fa-share-alt {
+  color: #ff9900;
+}
+
 /* Responsive */
 @media (max-width: 500px) {
   body {
@@ -129,5 +141,10 @@ footer p {
 
   .social-links a {
     font-size: 2rem; /* tamaño más chico en móvil */
+  }
+
+  main {
+    margin-top: 140px;
+    margin-bottom: 100px;
   }
 }
