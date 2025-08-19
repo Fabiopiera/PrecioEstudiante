@@ -67,16 +67,18 @@ footer p {
 .button {
   display: inline-block;
   margin: 8px;
-  padding: 10px 20px;
-  background: #00e5ff;
-  color: #121212;
-  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
   font-weight: bold;
-  transition: background 0.3s;
+  text-decoration: none;
+  border-radius: 25px;
+  background: #00c4cc;
+  color: white;
+  transition: background 0.3s ease;
 }
 
 .button:hover {
-  background: #00bcd4;
+  background: #009ba1;
 }
 
 /* Responsive */
