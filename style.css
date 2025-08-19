@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #121212; /* fondo oscuro */
+  color: #e0e0e0;
+}
+
+header,
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #00e5ff; /* cian fluo */
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+#lista-precios {
+  max-width: 600px;
+  margin: 0 auto;
+  overflow-x: auto;
+  background: #1e1e1e;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background: #00bcd4; /* cian más apagado */
+  color: #121212;
+}
+
+tr:hover {
+  background: #333;
+}
+
+a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer p {
+  margin: 8px 0;
+}
+
+/* Botones simples */
+.button {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 20px;
+  background: #00e5ff;
+  color: #121212;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #00bcd4;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+}
