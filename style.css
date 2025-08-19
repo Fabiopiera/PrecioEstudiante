@@ -12,7 +12,7 @@ header {
   top: 0;
   width: 100%;
   text-align: center;
-  background: #121212; /* mismo fondo oscuro */
+  background: #121212;
   padding: 10px 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -26,7 +26,7 @@ header img.logo {
 }
 
 main {
-  margin-top: 100px; /* espacio para header fijo */
+  margin-top: 120px; /* espacio compacto para header */
   margin-bottom: 120px; /* espacio para footer fijo */
   padding: 10px;
 }
@@ -64,7 +64,7 @@ td {
 }
 
 th {
-  background: #00bcd4; /* cian más apagado */
+  background: #00bcd4;
   color: #121212;
 }
 
@@ -83,7 +83,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background: #121212; /* mismo fondo que header */
+  background: #121212;
   text-align: center;
   padding: 10px 0;
   z-index: 1000;
@@ -101,7 +101,7 @@ footer p {
 }
 
 .social-links a {
-  font-size: 2.5rem; /* íconos grandes */
+  font-size: 2.5rem;
   margin: 0 15px;
   color: #444;
   transition: transform 0.2s, color 0.2s;
@@ -114,15 +114,12 @@ footer p {
 .social-links .fa-instagram {
   color: #e4405f;
 }
-
 .social-links .fa-whatsapp {
   color: #25d366;
 }
-
 .social-links .fa-facebook {
   color: #1877f2;
 }
-
 .social-links .fa-share-alt {
   color: #ff9900;
 }
@@ -140,11 +137,11 @@ footer p {
   }
 
   .social-links a {
-    font-size: 2rem; /* tamaño más chico en móvil */
+    font-size: 2rem;
   }
 
   main {
-    margin-top: 140px;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
 }
