@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
-  background: #121212; /* fondo oscuro */
+  background: #121212;
   color: #e0e0e0;
 }
 
@@ -16,6 +16,9 @@ header {
   padding: 10px 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(-100%);
+  opacity: 0;
+  animation: slideDown 0.8s forwards;
 }
 
 header img.logo {
@@ -23,16 +26,24 @@ header img.logo {
   height: auto;
   display: block;
   margin: 0 auto 10px auto;
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.5s;
+}
+
+header h2,
+header p {
+  opacity: 0;
+  animation: fadeIn 1s forwards 0.8s;
 }
 
 main {
-  margin-top: 120px; /* espacio compacto para header */
-  margin-bottom: 120px; /* espacio para footer fijo */
+  margin-top: 120px;
+  margin-bottom: 120px;
   padding: 10px;
 }
 
 h2 {
-  color: #00e5ff; /* cian fluo */
+  color: #00e5ff;
   font-size: 1.2em;
   margin-bottom: 5px;
 }
@@ -124,24 +135,35 @@ footer p {
   color: #ff9900;
 }
 
+/* Animaciones */
+@keyframes slideDown {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 /* Responsive */
 @media (max-width: 500px) {
   body {
     padding: 10px;
   }
-
   th,
   td {
     padding: 8px;
     font-size: 14px;
   }
-
   .social-links a {
     font-size: 2rem;
   }
-
   main {
-    margin-top: 120px;
+    margin-top: 140px;
     margin-bottom: 100px;
   }
 }
