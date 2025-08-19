@@ -26,7 +26,7 @@ header img.logo {
 }
 
 main {
-  margin-top: 102px; /* espacio para header fijo */
+  margin-top: 100px; /* espacio para header fijo */
   margin-bottom: 120px; /* espacio para footer fijo */
   padding: 10px;
 }
