@@ -11,6 +11,31 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <style>
+      /* Header fijo con logo */
+      header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: white;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      header img.logo {
+        max-width: 120px;
+        height: auto;
+        display: block;
+        margin: 0 auto 10px auto;
+      }
+
+      /* Contenido principal con margen para header */
+      main {
+        margin-top: 140px; /* ajustar según altura del header */
+        padding: 20px;
+      }
+
       /* Estilos solo para los íconos */
       .social-links {
         text-align: center;
@@ -38,8 +63,10 @@
   </head>
   <body>
     <header>
+      <!-- Logo centrado y fijo -->
+      <img src="images/logo.png" alt="QR Diseñarq Logo" class="logo" />
       <h1>Lista de Precios Estudiantes</h1>
-      <p>Sos estudiante? accedé a estos precios:</p>
+      <p>Sos estudiante? buenos precios para vos!</p>
     </header>
 
     <main>
