@@ -19,7 +19,7 @@ header {
 }
 
 header img.logo {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
   display: block;
   margin: 0 auto 10px auto;
@@ -27,17 +27,17 @@ header img.logo {
 
 main {
   margin-top: 140px; /* espacio para header fijo */
-  padding: 20px;
+  padding: 10px;
 }
 
-h1 {
+h2 {
   color: #00e5ff; /* cian fluo */
-  font-size: 1.8em;
+  font-size: 1.2em;
   margin-bottom: 5px;
 }
 
 p {
-  font-size: 16px;
+  font-size: 12px;
   color: #b0b0b0;
 }
 

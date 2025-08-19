@@ -1,7 +1,7 @@
 [
-  { "servicio": "Plano A3 (color)", "precio": "$11" },
-  { "servicio": "Plano A2 (color)", "precio": "$900" },
-  { "servicio": "Vinilo autoadhesivo", "precio": "$1500" },
+  { "servicio": "Papel A0 (color)", "precio": "$000" },
+  { "servicio": "Papel  A1 (color)", "precio": "$111" },
+  { "servicio": "Papel  A2 (color)", "precio": "$222" },
   { "servicio": "Vno se", "precio": "$1500" },
   { "servicio": "Banner pequeño", "precio": "$2000" },
   { "servicio": "Plano A3 (color)", "precio": "$11" },
@@ -11,7 +11,7 @@
   { "servicio": "Banner pequeño", "precio": "$2000" },
   { "servicio": "Banner pequeño", "precio": "$2000" },
   { "servicio": "Plano A3 (color)", "precio": "$11" },
-  { "servicio": "Plano A2 (color)", "precio": "$900" },
+
   { "servicio": "Vinilo autoadhesivo", "precio": "$1500" },
   { "servicio": "Vno se", "precio": "$1500" },
   { "servicio": "Banner pequeño", "precio": "$2000" }
