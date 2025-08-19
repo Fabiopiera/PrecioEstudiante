@@ -97,4 +97,20 @@ footer p {
     width: 100%;
     text-align: center;
   }
+  .social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .social-links a {
+    font-size: 2rem; /* tamaño de los íconos */
+    color: #333; /* color inicial */
+    transition: color 0.3s ease;
+  }
+
+  .social-links a:hover {
+    color: #e1306c; /* hover instagram style */
+  }
 }

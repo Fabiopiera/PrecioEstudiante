@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista de Precios Estudiantes</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome para íconos -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      /* Estilos solo para los íconos */
+      .social-links {
+        text-align: center;
+        margin: 15px 0;
+      }
+      .social-links a {
+        font-size: 2.5rem; /* íconos grandes */
+        margin: 0 15px;
+        color: #444;
+        transition: transform 0.2s, color 0.2s;
+      }
+      .social-links a:hover {
+        transform: scale(1.2);
+      }
+      .social-links .fa-instagram {
+        color: #e4405f;
+      }
+      .social-links .fa-whatsapp {
+        color: #25d366;
+      }
+      .social-links .fa-facebook {
+        color: #1877f2;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,23 +45,22 @@
     <main>
       <!-- Aquí se genera la tabla con los precios desde JSON -->
       <div id="lista-precios"></div>
-
-      <!-- Botones de contacto -->
-      <div style="text-align: center; margin-top: 15px">
-        <a
-          href="https://instagram.com/disenarq_impresiones"
-          target="_blank"
-          class="button"
-          >Instagram</a
-        >
-        <a href="https://wa.me/3624608747" target="_blank" class="button"
-          >WhatsApp</a
-        >
-      </div>
     </main>
 
     <footer>
-      <p>© 2025 QR Diseñarq y otro</p>
+      <!-- Íconos sociales -->
+      <div class="social-links">
+        <a href="https://instagram.com/disenarq_impresiones" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/3624608747" target="_blank">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <p>© 2025 QR Diseñarq</p>
     </footer>
 
     <script src="script.js"></script>
