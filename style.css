@@ -152,7 +152,7 @@ footer p {
 /* Sección de otros servicios */
 #otros-servicios {
   width: 90%; /* ocupa casi todo el ancho disponible */
-  max-width: 600px; /* ancho máximo para desktop */
+  max-width: 700px; /* ancho máximo para desktop */
   margin: 40px auto; /* centrado horizontal */
   padding: 10px;
 }
