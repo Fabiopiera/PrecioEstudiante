@@ -173,7 +173,7 @@ footer p {
 }
 
 .card {
-  width: 70%; /* ocupa todo el ancho del contenedor */
+  width: 90%; /* ocupa todo el ancho del contenedor */
   border-radius: 10px;
   overflow: hidden;
 }

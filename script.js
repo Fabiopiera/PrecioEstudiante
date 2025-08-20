@@ -3,7 +3,7 @@ fetch("precios.json")
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("lista-precios");
-    let html = "<table><tr><th>Servicio</th><th>Precio</th></tr>";
+    let html = "<table><tr><th>impresion</th><th>Precio</th></tr>";
     data.forEach((item) => {
       html += `<tr><td>${item.servicio}</td><td>${item.precio}</td></tr>`;
     });
