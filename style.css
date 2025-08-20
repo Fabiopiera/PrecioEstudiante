@@ -54,7 +54,7 @@ p {
 }
 
 #lista-precios {
-  max-width: 600px;
+  max-width: 300px;
   margin: 0 auto;
   overflow-x: auto;
   background: #1e1e1e;
@@ -146,6 +146,98 @@ footer p {
 @keyframes fadeIn {
   to {
     opacity: 1;
+  }
+}
+
+/* Sección de otros servicios */
+#otros-servicios {
+  width: 90%; /* ocupa casi todo el ancho disponible */
+  max-width: 600px; /* ancho máximo para desktop */
+  margin: 40px auto; /* centrado horizontal */
+  padding: 10px;
+}
+
+#otros-servicios h2 {
+  color: #00e5ff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column; /* una columna centrada */
+  gap: 20px;
+  align-items: center; /* centra las tarjetas horizontalmente */
+  width: 100%;
+}
+
+.card {
+  width: 70%; /* ocupa todo el ancho del contenedor */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px; /* borde redondeado visible */
+}
+#como {
+  margin-top: 40px; /* separa la card de la tabla */
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+}
+
+#como .cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#como .card {
+  width: 100%;
+  max-width: 300px; /* limita el ancho */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#como .card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
+.centrado {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#contacto {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#contacto a {
+  color: #00e5ff;
+  text-decoration: none;
+  display: block;
+  margin: 12px 0;
+}
+
+#contacto a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive móvil */
+@media (max-width: 500px) {
+  #otros-servicios {
+    width: 95%;
+    margin: 20px auto;
   }
 }
 
